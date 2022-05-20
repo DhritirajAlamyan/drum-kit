@@ -1,0 +1,73 @@
+body {
+  background-color: #283149;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top: 5%;
+}
+
+.drum {
+  /* outline command is used to make an element stand out from the rest. It will create an outline around the element. It has default value in html */
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  /* "text-shadow" can create shadows on top, bottom, left and right of an element. */
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  /* "display:inline-block" element gives the power to change width and height of an inline element */
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 8% 0.5%;
+  background-color: white;
+}
+
+/* To give background image to a button */
+.w {
+  /* url is the source or path of the background-image */
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+/*  "pressed" class will be added to the buttons whenever the button is pressed to give the animation effect to the buttons.  */
+.pressed {
+  opacity: 0.3;
+}
